@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "FBC",
+    " F "
+  ],
+  "key": {
+    "F": { "item": "create:flywheel" },
+    "B": { "item": "create:brass_casing" },
+    "C": { "item": "computercraft:computer_normal" }
+  },
+  "result": {
+    "id": "create_avionics:gyro",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "WMV",
+    " C "
+  ],
+  "key": {
+    "T": { "item": "create:transmitter" },
+    "M": { "item": "create:precision_mechanism" },
+    "C": { "item": "create:brass_casing" },
+    "V": { "item": "computercraft:wired_modem"},
+    "W": { "item": "computercraft:wireless_modem_normal"}
+  },
+  "result": {
+    "id": "create_avionics:antenna",
+    "count": 1
+  }
+}
