@@ -1,0 +1,6 @@
+{
+	"itemGroup.create_avionics.create_avionics": "Create Avionics",
+    "block.create_avionics.gyro": "Gyroscopic Sensor",
+    "block.create_avionics.antenna": "Stream Antenna",
+    "block.create_avionics.pitot_tube": "Pitot Tube"
+}
