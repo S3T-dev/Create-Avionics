@@ -1,25 +1,25 @@
 
-Installation information
+Why?
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This mod was made because of treade-offs of using Aeronautics's peripherals with CC.  
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
+Features:
 ============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+1. Gyroscopic Sensor:
+The actual symbol of the mod. It was made because of requiering at least 2 blocks to get orientation. Also only being able to get Euler's angles, which have an issue of Gimbal lock.
+Gyroscopic sensor allows you to get a quaternion with just 1 peripheral.
+I strongly recommend 3Blue1Brown video to get an intuition of quaternions. Thank you for your cool videos! 
+https://youtu.be/d4EgbgTm0Bg?si=4pvQcGHMJqn9ASEb
+
+2. Stream Antenna:
+Aeronautics's method of geolocation(with magnetite) is overpowered with CC: Tweaked. It should only stay a redstone control system. It is uncompact as you need at least 1 additional block, as well as it is expensive while you may need a netherite ingot. For that cost you get non-distance-limited orientation that can't be detected.
+The mod adds a balanced system with configurable max distance. You only need a computer to orient on a device. It only gives you an orientation as AzEl(it is affected by Gimbal lock, will be changed to different system in future) to streaming antennas. You always get all of the streaming antennas within the radius. You can filter out your's with IDs. As well as you can find unwanted streaming devices to democraticize them.
+
+3. Pitot Tube:
+This one was added mostly for decoration. You can now install a working air-speed-unrelative speed measurement device on your contraption. We assume the computer to "magically" cancel out the air speed. Enjoy!
+
+Community:
+=========
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/9RuyvQBP45)
