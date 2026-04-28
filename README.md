@@ -20,6 +20,10 @@ The mod adds a balanced system with configurable max distance. You only need a c
 3. Pitot Tube:
 This one was added mostly for decoration. You can now install a working air-speed-unrelative speed measurement device on your contraption. We assume the computer to "magically" cancel out the air speed. Enjoy!
 
+License:
+==========
+MIT (c) 2026 
+
 Community:
 =========
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/9RuyvQBP45)
