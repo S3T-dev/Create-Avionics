@@ -20,6 +20,11 @@ The mod adds a balanced system with configurable max distance. You only need a c
 3. Pitot Tube:
 This one was added mostly for decoration. You can now install a working air-speed-unrelative speed measurement device on your contraption. We assume the computer to "magically" cancel out the air speed. Enjoy!
 
+What next?:
+============
+1. Radars:
+Soon radars are gonna be implemented! I want them to see further than few chunks so this is gonna be tough on optimization. At the moment the idea is that they`ll only really take a form from loaded chunks while use world gen vertulization to see down the horizon.
+
 License:
 ==========
 MIT (c) 2026 
